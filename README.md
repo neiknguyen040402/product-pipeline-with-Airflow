@@ -23,7 +23,7 @@ Firstly, book product data in the form of a JSON file from an online website, su
 
 ### Data Platform Architecture
 <p align="center">
-    <img src="./assets/img_temp/kientruc.jpg">
+    <img src="./dags/assets/img_temp/kientruc.png">
 </p>
 
 ## Implementation 
@@ -165,7 +165,7 @@ Using star scheme
 ### Data pipeline
 The graph view for of data pipeline displayed below describe the task dependencies and the workflow of ETL process:
 <p align="center">
-    <img src="./assets/img_temp/pipeline.png">
+    <img src="./dags/assets/img_temp/pipeline.png">
 </p>
 
 ## Project Results
