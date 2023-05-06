@@ -99,7 +99,7 @@ def main():
                 print("Success!")
             except:
                 print("Errors occur!!!", response)
-        time.sleep(random.randrange(1, 2))
+        time.sleep(random.randrange(1, 3))
     print(f"Crawled: {count_product} products' data")
 
     conn.commit()
