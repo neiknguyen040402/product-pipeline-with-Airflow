@@ -29,7 +29,7 @@ The first step in this project is to extract book product data from an online ec
 
 ### Database schema design
 
-Using star scheme
+Using star schema
 
 **1. Staging Tables**
 - staging.book_product_id
@@ -79,57 +79,18 @@ Using star scheme
 
 **2. Fact Table**
 - factbookproduct
-    ```
-    id AUTO INCREMENT
-    product_id REFERENCES dimbook(product_id)
-    category_id REFERENCES dimcategory(category_id)
-    sku
-    image_url
-    quantity_sold
-    price
-    original_price
-    discount
-    discount_rate
-    ```
 
-**3. Dimension Table**
+**3. Dimension Tables**
 - dimbook
-    ```
-    product_id
-    name
-    author
-    publisher
-    manufacturer
-    number_of_pages
-    translator
-    publication_date
-    book_cover
-    width
-    height
-    ```
 
 - dimcategory
-    ```
-    category_id
-    category
-    ```
 
 - dimreview
-    ```
-    product_id REFERENCES factbookproduct(id)
-    rating_average
-    reviews_count
-    count_1_star
-    percent_1_star
-    count_2_star
-    percent_2_star
-    count_3_star
-    percent_3_star
-    count_4_star
-    percent_4_star
-    count_5_star
-    percent_5_star
-    ```
+
+<p align="center">
+    <img src="./dags/assets/img_temp/star_schema.png">
+</p>
+ 
 
 ### Data pipeline
 The graph view for of data pipeline displayed below describe the task dependencies and the workflow of ETL process:
