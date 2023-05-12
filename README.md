@@ -88,7 +88,7 @@ Using star schema
 - dimreview
 
 <p align="center">
-    <img src="./dags/assets/img_temp/star_schema.png">
+    <img src="./dags/assets/img_temp/star_schema_v2.png">
 </p>
  
 
