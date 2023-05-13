@@ -22,7 +22,7 @@ The first step in this project is to extract book product data from an online ec
 
 ### Data Platform Architecture
 <p align="center">
-    <img src="./dags/assets/img_temp/kientruc.png">
+    <img src="./dags/assets/img_temp/architecture.png">
 </p>
 
 ## Implementation 
