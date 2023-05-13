@@ -100,6 +100,12 @@ The graph view for of data pipeline displayed below describe the task dependenci
 
 ### Report Dashboard
 
+The data stored in the data warehouse is utilized in creating a simple Power BI dashboard, as illustrated in the image.
+
+<p align="center">
+    <img src="./dags/assets/img_temp/bi_report.png">
+</p>
+
 ### Some screenshots
 <p align="center">
     <p>ProductId Staging Table</p>
