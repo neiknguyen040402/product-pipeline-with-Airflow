@@ -19,6 +19,7 @@ The first step in this project is to extract book product data from an online ec
 - Staging Database: `PostgreSQL 15.1`
 - Data Warehouse: `SQL server`
 - Language: `Python 3.10.6`
+- Business Intelligence Tools: `Microsoft Power BI`
 
 ### Data Platform Architecture
 <p align="center">
